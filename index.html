@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taskio Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h1>Taskio - your new favorite new task manager</h1>
+  <p>Organize your daily tasks efficiently.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Add and manage tasks</li>
+    <li>Simple and clean interface</li>
+    <li>Fast interaction</li>
+  </ul>
+
+  <h2>Why Use Taskio?</h2>
+  <p>Taskio is the perfect solution for students looking for a lightweight and easy way to track their daily responsibilities.</p>
+  
+</div>
+
+<div class="container">
+  <button onclick="showAll()">All</button>
+  <button onclick="showFirstFive()">Top 5</button>
+
+  <h2>Start Adding Tasks!</h2>
+  <ul id="taskList"></ul>
+
+  <button onclick="addTask()">Add Task</button>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
